@@ -14,7 +14,8 @@ module.exports = {
   },
   networks:{
     localhost:{
-      url:"http://127.0.0.1:8545"
+      url:"http://127.0.0.1:8545",
+      accounts: ['0x88cbead91aee890d27bf06e003ade3d4e952427e88f88d31d61d3ef5e5d54305']
     }
   },
   namedAccounts: {
